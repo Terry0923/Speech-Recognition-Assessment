@@ -29,7 +29,7 @@ sirens_medium_google_accuracy_arr = []
 sirens_high_google_accuracy_arr = []
 stop_words = set(stopwords.words('english'))
 # stop_words = []
-# helper function
+# convert numbers to English words for assessment purposes
 def num2words(num):
 	nums_20_90 = ['twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety']
 	nums_0_19 = ['zero','one','Two','three','four','five','six','seven','eight',"nine", 'ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen']
